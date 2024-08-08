@@ -19,7 +19,7 @@ public class Main {
         if (userID.equals("Valid userID") || password.equals("Valid password")) {
             while (true) {
                 price.clear();
-                 System.out.print("Enter Your Number of Items: ");
+                System.out.print("Enter Your Number of Items: ");
                 int numItems = in.nextInt();
 
                 for (int i = 0; i < numItems; i++) {
