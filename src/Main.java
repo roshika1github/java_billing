@@ -5,7 +5,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         ArrayList<Double> price = new ArrayList<>();
         String userID, password;
-        double payment,applyVAT,VAT_rate, discountpercentage;
+         double payment,applyVAT,VAT_rate, discountpercentage;
 
         while(true) {
             System.out.print("Enter User ID (or 'quit' to exit): ");
