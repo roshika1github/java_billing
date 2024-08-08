@@ -8,7 +8,7 @@ public class Main {
         double payment,applyVAT,VAT_rate, discountpercentage;
 
 
-        while (true) {
+        while(true) {
             System.out.print("Enter User ID (or 'quit' to exit): ");
             userID = in.nextLine();
             if (userID.equals("quit")) {
