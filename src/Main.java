@@ -7,7 +7,6 @@ public class Main {
         String userID, password;
         double payment,applyVAT,VAT_rate, discountpercentage;
 
-
         while(true) {
             System.out.print("Enter User ID (or 'quit' to exit): ");
             userID = in.nextLine();
