@@ -9,7 +9,7 @@ public class Main {
 
         while(true) {
             System.out.print("Enter User ID (or 'quit' to exit): ");
-            userID = in.nextLine();
+             userID = in.nextLine();
             if (userID.equals("quit")) {
                 System.out.println("goodbye");
             }
